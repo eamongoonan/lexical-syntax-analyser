@@ -91,6 +91,8 @@ test/              # Sample CCAL programs
 build.sh           # Build script
 ```
 
+See [LANGUAGE.md](LANGUAGE.md) for a full plain-English description of the grammar.
+
 ## Tech Stack
 
 - Java 11
