@@ -1,0 +1,34 @@
+variable x : int;
+variable y : int;
+variable flag : bool;
+constant MAX : int = 10;
+
+int add(a : int, b : int) is
+{
+    return(a + b);
+}
+
+void countdown(n : int) is
+variable i : int;
+{
+    i = n;
+    while (i > 0) {
+        i = i - 1;
+    }
+    return();
+}
+
+main
+{
+variable result : int;
+    x = 5;
+    y = 3;
+    result = add(x, y);
+    if (result == 8) {
+        flag = true;
+    }
+    else {
+        flag = false;
+    }
+    countdown(x);
+}

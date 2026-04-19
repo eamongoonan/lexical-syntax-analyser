@@ -1,0 +1,6 @@
+// Missing semicolon after variable declaration — should fail to parse
+main
+{
+    variable x : int
+    x = 5;
+}
